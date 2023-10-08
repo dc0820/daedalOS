@@ -24,5 +24,5 @@ RUN yarn && yarn build
 EXPOSE 8080
 
 # The command to run when the Docker container starts.
-CMD ["yarn", "start"]
+CMD yarn start
 
