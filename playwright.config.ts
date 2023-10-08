@@ -1,7 +1,7 @@
 import type { PlaywrightTestConfig } from "@playwright/test";
 import { devices } from "@playwright/test";
 
-const { CI, PORT = 3000 } = process.env;
+const { CI, PORT = 8080} = process.env;
 const {
   "Desktop Chrome": chrome,
   "Desktop Firefox": firefox,

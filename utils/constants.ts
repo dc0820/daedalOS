@@ -381,12 +381,12 @@ export const DEFAULT_SCROLLBAR_WIDTH = 17;
 export const TASKBAR_HEIGHT = 30;
 
 export const PACKAGE_DATA = {
-  alias: "daedalOS",
+  alias: "danOS",
   author: {
-    email: "dustinbrett@gmail.com",
-    name: "Dustin Brett",
-    npub: "npub10uc7hg6wdxhhd7ee8x9c5lr9d0ux7272rv2m0mc03ds54q7quxjss02r3p",
-    url: "https://dustinbrett.com",
+    email: "danielwcook5@gmail.com",
+    name: "Daniel Cook",
+    npub: "nprofile1qqs9p4fxfd6evml8mtgf6cmkr3y3nx4amlkd0jxs0gk3tzpd8slwyhqk3xgxj",
+    url: "https://danielcook.org",
   },
   description: "Desktop environment in the browser",
   license: "MIT",

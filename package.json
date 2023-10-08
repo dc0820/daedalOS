@@ -1,11 +1,11 @@
 {
-  "name": "daedalos",
+  "name": "danos",
   "version": "2.0.0",
   "description": "Desktop environment in the browser",
   "author": {
-    "name": "Dustin Brett",
-    "email": "dustinbrett@gmail.com",
-    "url": "https://dustinbrett.com"
+    "name": "Daniel Cook",
+    "email": "danielwcook5@gmail.com",
+    "url": "https://danielcook.org"
   },
   "license": "MIT",
   "browserslist": [
@@ -22,7 +22,7 @@
     "build:search": "node scripts/searchIndex.js",
     "deploy": "yarn build:robots && next export && yarn build:html && yarn build:js",
     "docker:build": "docker build -t daedalos .",
-    "docker:run": "docker run -dp 3000:3000 --rm --name daedalos daedalos",
+    "docker:run": "docker run -dp 8080:8080 --rm --name daedalos daedalos",
     "dev": "next dev",
     "dev:ssl": "next dev --experimental-https",
     "e2e": "playwright test",
@@ -31,7 +31,7 @@
     "export": "next export",
     "prepare": "husky install",
     "prettier": "prettier --write .",
-    "start": "next start",
+    "start": "next start -p 8080",
     "stylelint": "stylelint --formatter=verbose **/*.ts*",
     "test": "jest",
     "unused-exports": "ts-prune --project tsconfig.json --ignore \"\\pages|\\e2e\" --error"
